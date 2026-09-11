@@ -11,3 +11,8 @@ To obtain docker secrets that are required:
 - Login
 - password requires token. Account settings: personal access token -> generate -> Read,write,delete
 - go to repo in github -> secrets and variables -> actions -> create secret keys
+
+
+After everything is done, to test: docker pull munozgonzalez4/flasktest-app
+Then: docker run -p 5000:5000 munozgonzalez4/flasktest-app:latest
+This will run in the container!!!
